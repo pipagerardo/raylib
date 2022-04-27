@@ -1,0 +1,14 @@
+PIPAGERARDO
+https://github.com/pipagerardo/raylib
+
+CODE::BLOCKS
+https://www.codeblocks.org/
+https://sourceforge.net/projects/codeblocks/
+https://sourceforge.net/projects/codeblocks/files/Binaries/20.03/Windows/codeblocks-20.03mingw-nosetup.zip/download
+
+RAYLIB
+https://www.raylib.com/games.html
+https://github.com/raysan5/raylib/releases
+
+GIMP
+https://www.gimp.org/
