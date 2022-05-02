@@ -12,3 +12,21 @@ https://github.com/raysan5/raylib/releases
 
 GIMP
 https://www.gimp.org/
+
+TITULO:
+Curso de C con Raylib - Compilar Raylib 4.0.0 en Windows usando Code::Blocks
+Curso de C con Raylib - Lección 000 - Ventana con Iconos
+Curso de C con Raylib - Lección 001 - Tipos Básicos de C
+Curso de C con Raylib - Lección 002 - Cadenas de Texto
+
+LISTAS:
+RYLIB
+
+ETIQUETAS:
+Raylib,Lenguaje C,C++,CPP,GCC,MinGW,Code::Blocks,CodeBlocks,Curso,Tutorial,Gratis
+
+IDIOMA:
+Español
+
+CATEGORIA:
+Educación
