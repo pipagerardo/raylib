@@ -74,12 +74,12 @@ int main( void ) {
         unsigned char      b = 0;                       // 0;           // -5;
         unsigned short     c = 65535;                   // UINT16_MAX;  // 5;
         unsigned short     d = 0;                       // 0;           // -5;
-        unsigned           e = 4294967295U;             // INT32_MAX;   // 5U;
+        unsigned           e = 4294967295U;             // UINT32_MAX;  // 5U;
         unsigned           f = 0;                       // 0;           // -5U;
-        unsigned long      g = 4294967295U;             // INT32_MAX;   // 5UL;
-        unsigned long      h = 0;                       // INT32_MAX;   // -5UL;
-        unsigned long long i = 18446744073709551615ULL; // INT64_MAX;   // 5ULL;
-        unsigned long long j = 0;                       // INT64_MAX;   // -5ULL;
+        unsigned long      g = 4294967295U;             // UINT32_MAX;  // 5UL;
+        unsigned long      h = 0;                       // 0;           // -5UL;
+        unsigned long long i = 18446744073709551615ULL; // UINT64_MAX;  // 5ULL;
+        unsigned long long j = 0;                       // 0;           // -5ULL;
         Escribe( TextFormat( "unsigned char  = de %hhu a %hhu", a, b ) );      // %hhu | %hhc | %c
         Escribe( TextFormat( "unsigned short = de %hu a %hu", c, d ) );        // %hu  | %hc  | %C
         Escribe( TextFormat( "unsigned       = de %u a %u", e, f ) );          // %u
@@ -162,7 +162,7 @@ int main( void ) {
         char b = 0B11111111;
         Escribe( TextFormat( "Binario a = %hhd", a ) );
         Escribe( TextFormat( "Binario b = %hhd", b ) );
-        Escribe( TextFormat( "Binario b = %hhu", b ) );
+        Escribe( TextFormat( "Binario b = %hhu", (unsigned char)b ) );
 
         // Hexadecimal: 0xFF; 0x5bac; -> %x | %X
         unsigned c = 0x0a;  // Hexadecimal digitos { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 }
